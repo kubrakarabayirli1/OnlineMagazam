@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMagazam", "OnlineMagazam\OnlineMagazam.csproj", "{77A64695-7317-48C9-846E-0C92201FA919}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CF2B8DA1-F22E-4E43-9B23-78C17DE58C2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77A64695-7317-48C9-846E-0C92201FA919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A64695-7317-48C9-846E-0C92201FA919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A64695-7317-48C9-846E-0C92201FA919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A64695-7317-48C9-846E-0C92201FA919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2B8DA1-F22E-4E43-9B23-78C17DE58C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2B8DA1-F22E-4E43-9B23-78C17DE58C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2B8DA1-F22E-4E43-9B23-78C17DE58C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2B8DA1-F22E-4E43-9B23-78C17DE58C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C4B8457-756D-4852-8FA1-47247E93C927}
+	EndGlobalSection
+EndGlobal

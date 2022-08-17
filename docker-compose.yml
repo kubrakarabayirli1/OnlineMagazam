@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  onlinemagazam:
+    image: ${DOCKER_REGISTRY-}onlinemagazam
+    build:
+      context: .\OnlineMagazam
+      dockerfile: Dockerfile

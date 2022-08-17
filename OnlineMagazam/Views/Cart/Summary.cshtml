@@ -1,0 +1,6 @@
+﻿@model OnlineMagazam.Models.Cart
+<div class="well well-small">
+    <a id="myCart" href="/Cart/Index">
+    <img src="/OnlineMagaza/themes//images/ico-cart.png" alt="cart">[@Model.Cartlines.Count] Adet 
+    <span class="badge badge-warning pull-right">@Model.Total().ToString("c")</span></a>
+</div>

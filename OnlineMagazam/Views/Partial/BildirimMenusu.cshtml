@@ -1,0 +1,37 @@
+﻿@model IEnumerable<OnlineMagazam.Entity.Order>
+
+<li class="nav-item dropdown">
+    <a class="nav-link" data-toggle="dropdown" href="#">
+        <i class="far fa-bell"></i>
+        <span class="badge badge-warning navbar-badge">@Model.Count()</span>
+    </a>
+<ul class="dropdown-menu">
+    <li class="header"><strong>Bildirimler</strong>(Beklenen Siparişler)</li>
+    <li>
+        <!-- inner menu: contains the actual data -->
+        <ul class="menu">
+            @foreach (var item in Model)
+            {
+                <li>
+                    <a href="/Order/Details/@item.Id">
+                        <strong>@item.UserName: </strong> Kullanıcısı ürününü bekliyor..!!
+                    </a>
+                </li>
+
+            }
+
+
+        </ul>
+    </li>
+    <li class="footer">
+        @if (Model.Count() > 0)
+        {
+            <p>Bildirimleriniz</p>
+        }
+        else
+        {
+            <span>Bildirim yok</span>
+        }
+    </li>
+</ul>
+</li>
